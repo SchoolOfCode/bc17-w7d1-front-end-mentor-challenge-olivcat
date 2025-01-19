@@ -69,6 +69,7 @@
 .paragraph {
   color: hsl(0, 0%, 42%);
   font-size: 10px;
+  font-weight: 5px;
   margin-top: -10px;
   background-color: white;
 }
