@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@800&display=swap");
+
+* {
+  background-color: rgb(246, 208, 80);
+  font-family: "Figtree", sans-serif;
+}
+
+.main-box {
+  width: 210px;
+  height: 290px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  display: grid;
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.9);
+  justify-content: flex-start; /* Align content to the left */
+}
+
+.screen-box {
+  width: 210px;
+  height: 130px;
+  border-radius: 7px;
+  margin-bottom: -150px;
+  background-image: url(../blog-preview-card-main/assets/images/illustration-article.svg);
+  background-size: cover;
+  display: grid;
+  justify-items: center; /* Center items horizontally */
+  justify-content: flex-start;
+  grid-template-columns: 1fr auto; /* Creates two columns: one flexible, one for the child */
+}
+
+.learning-box {
+  width: 55px;
+  height: 15px;
+  border-radius: 2px;
+  margin: 10px;
+  margin-bottom: -200px;
+  margin-top: 130px;
+  margin-left: 2px;
+  padding: 2px;
+  font-weight: 800;
+  font-size: 12px;
+  align-self: start;
+  display: grid; /* Grid layout */
+  justify-items: start; /* Align grid items to the start (left) */
+}
+
+.date-published {
+  width: 210px;
+  height: 15px;
+  font-size: 10px;
+  font-weight: 50px;
+  color: hsl(0, 0%, 42%);
+  background-color: white;
+  margin-top: 145px;
+  margin-left: 2px;
+}
+
+.title-box {
+  font-size: 16px;
+  margin-top: -10px;
+  background-color: white;
+}
+
+.paragraph {
+  color: hsl(0, 0%, 42%);
+  font-size: 10px;
+  margin-top: -10px;
+  background-color: white;
+}
+
+.author {
+  font-size: 10px;
+  width: 65px;
+  margin-left: 70px;
+  text-align: right;
+  background-color: white;
+}
+
+.author-photo {
+  width: 55px;
+  height: 55px;
+  margin-bottom: -45px;
+  background-image: url(/Users/oliviabutcher/repos/blog-preview-card-main/assets/images/image-avatar.webp);
+  background-size: cover;
+  background-color: white;
+}
+
+/*box-sizing: border-box;
+width: 194px;
+aspect-ratio: auto 194 / 142;
+height: 142px;*/

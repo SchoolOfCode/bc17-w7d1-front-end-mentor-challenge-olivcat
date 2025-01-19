@@ -1,0 +1,40 @@
+Use Dev tools to experiment and make edits before copying over to CSS
+
+
+Sections to style:
+Background 
+- Set the colour (rgb(246, 208, 80)) ✅
+
+Central box shape ✅
+- Should have rounded edges
+- Drop shadow
+- White fill
+- Black border outline 
+
+Screen box 
+- Should have rounded edges 
+- Should contain a graphic image 
+- Look up how to display images within a container 
+
+Learning box 
+- Text - Learning 
+- Ensure correct font is used
+- Text should be bold and (black)
+- Background color (rgb(246, 208, 80))
+
+Date Published Div 
+- Text - Published 21 Dec 2023
+- Ensure correct font is used
+- Black text, lightweight
+
+Title Div
+- Text - HTML and CSS Foundations 
+- Ensure correct font is used
+- Text should be (rgb(246, 208, 80))
+
+Paragraph
+- Text - These languages are the backbone of every website, defining structure, content, and presentation. 
+
+Author Div
+- Contains image
+- Text - Greg Hooper 
